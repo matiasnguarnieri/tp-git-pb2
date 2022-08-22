@@ -39,5 +39,6 @@ public class Ahorcado {
 		} while (opcion < 1 && opcion > 4);
 
 		System.out.println("El resultado es " + resultado.toString());
+		System.out.println("aun existe");
 	}
 }
