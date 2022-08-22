@@ -12,18 +12,18 @@ public class Ahorcado {
  Scanner teclado = new Scanner(System.in);
  
 do{
- System.out.println("Ingrese su operación /n 1 para sumar /n 2 para restar /n 3 para multiplicar /n 4 para dividir");
+ System.out.println("Ingrese su operación /n 4 para sumar /n 3 para restar /n 2 para multiplicar /n 1 para dividir");
  opcion = teclado.nextInt();
  }while(opcion < 1 && opcion > 4);
  System.out.println("Ingrese el primer numero");
  a = teclado.nextInt();
  System.out.println("Ingrese el segundo numero");
  a = teclado.nextInt();
- if(opcion.equals(1)){
+ if(opcion.equals(4)){
  resultado = a + b;
- }else if(opcion.equals(2)){
- resultado = a - b;
  }else if(opcion.equals(3)){
+ resultado = a - b;
+ }else if(opcion.equals(2)){
  resultado = a * b;
  }else{
  resultado = a / b;
